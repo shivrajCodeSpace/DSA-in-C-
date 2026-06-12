@@ -13,13 +13,13 @@ g++ index.cpp -o index && ./index
 - If the file is in a subfolder, you can compile it by giving the relative path:
 
 ```bash
-g++ "FolderName/FileName" -o "FolderName/FileName" && "./FolderName/FileName"
+g++ "FolderName/FileName.cpp" -o "FolderName/FileName" && "./FolderName/FileName"
 ```
 
 - You can also compile and run from the subfolder:
 
 ```bash
-cd "FolderName" && g++ FileName -o FileName && ./FileName
+cd "FolderName" && g++ FileName.cpp -o FileName && ./FileName
 ```
 
  Day 01 Complete Chapter 1 Pseudo code, Algorithm and Flowchart
