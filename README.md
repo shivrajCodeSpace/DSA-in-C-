@@ -2,7 +2,25 @@
 DSA in C++ helps us learn how to store and manage data properly. It includes data structures like arrays, stacks, queues, trees, and graphs. It also teaches algorithms for searching, sorting, and solving problems. Learning DSA improves programming logic and problem-solving skills.
 
 
-How to Run the CPP File On Terminal `g++ index.cpp -o index && ./index`
+How to run a C++ file from the project root:
+
+- If the file is in the root folder:
+
+  ```bash
+g++ index.cpp -o index && ./index
+```
+
+- If the file is in a subfolder, you can compile it by giving the relative path:
+
+  ```bash
+g++ "Chapter 5/Chap5.1.cpp" -o "Chapter 5/Chap5.1" && "./Chapter 5/Chap5.1"
+```
+
+- You can also compile and run from the subfolder:
+
+  ```bash
+cd "Chapter 5" && g++ Chap5.1.cpp -o Chap5.1 && ./Chap5.1
+```
 
  Day 01 Complete Chapter 1 Pseudo code, Algorithm and Flowchart
 Day 02 Complete Chapter 2 Variable , Data types And Operator and Compile and Run Process
