@@ -35,41 +35,57 @@ int square(int x) {
 ```
 
 ## Function declaration (prototype) vs definition vs call
-- **Declaration (prototype)**: tells the compiler about the function signature before its use.
 
-```cpp
-int add(int a, int b); // declaration/prototype
-```
+Declaration, definition, and call are three separate concepts:
 
-- **Definition**: provides the actual body (implementation).
+- **Declaration (prototype):** announces the function's signature (return type, name, and parameter types) so the compiler can check calls before it sees the implementation. Declarations are required when a function is used before it is defined or when separating interface (header) from implementation (source file).
 
-```cpp
-int add(int a, int b) {
-    return a + b;
-}
-```
+    Example:
 
-- **Call / Invoke**: executing the function by name with arguments.
+    ```cpp
+    int add(int a, int b); // forward declaration / prototype
+    ```
 
-```cpp
-int result = add(3, 4); // function call
-```
+- **Definition:** provides the actual implementation (the function body). The definition must match the declared signature (same return type and parameter types).
 
-Putting it together:
+    Example:
+
+    ```cpp
+    int add(int a, int b) {
+            return a + b; // function body
+    }
+    ```
+
+- **Call (invoke):** executes the function by name and passes actual arguments. The compiler checks that the call matches the function's signature (number and types of arguments).
+
+    Example:
+
+    ```cpp
+    int result = add(3, 4); // call
+    ```
+
+Notes and tips:
+
+- The parameter names in a declaration are optional: `int add(int, int);` is valid.
+- Declarations are commonly placed in header files (`.h` / `.hpp`) and definitions in source files (`.cpp`). This enables separate compilation and clearer module boundaries.
+- A function's signature (used for overload resolution) includes the function name and parameter types, but not the return type.
+- Default parameter values may be specified in the declaration (not in multiple places).
+
+Compact complete example (declaration, call, definition):
 
 ```cpp
 #include <iostream>
 using namespace std;
 
-int add(int a, int b); // prototype
+int add(int a, int b); // declaration (prototype)
 
 int main() {
-    cout << add(2, 3) << endl; // call
-    return 0;
+        cout << add(2, 3) << endl; // call
+        return 0;
 }
 
-int add(int a, int b) { // definition
-    return a + b;
+int add(int a, int b) { // definition (implementation)
+        return a + b;
 }
 ```
 
