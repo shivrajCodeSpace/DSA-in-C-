@@ -6,19 +6,19 @@ How to run a C++ file from the project root:
 
 - If the file is in the root folder:
 
-  ```bash
+```bash
 g++ index.cpp -o index && ./index
 ```
 
 - If the file is in a subfolder, you can compile it by giving the relative path:
 
-  ```bash
+```bash
 g++ "Chapter 5/Chap5.1.cpp" -o "Chapter 5/Chap5.1" && "./Chapter 5/Chap5.1"
 ```
 
 - You can also compile and run from the subfolder:
 
-  ```bash
+```bash
 cd "Chapter 5" && g++ Chap5.1.cpp -o Chap5.1 && ./Chap5.1
 ```
 
