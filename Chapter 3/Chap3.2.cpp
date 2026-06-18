@@ -1,22 +1,22 @@
-
-// Find the Character of UpperCase and LowerCase with Two different Logic
+// Program to check whether a character is uppercase or lowercase
 #include<iostream>
 using namespace std;
-int main(){
-    
+
+int main() {
     char ch;
-    cout<<"Enter a Character:";
-    cin>>ch;
 
-    // if(ch>= 'a' && ch <='z'){
-    // Where we Used ASCII value to find out the UC and LC
-    if(ch >= 97 && ch <= 122){
-        cout<<"Lower Case"<<endl;
+    // Take input from user
+    cout << "Enter a Character:";
+    cin >> ch;
+
+    // Check lowercase using ASCII values
+    if (ch >= 97 && ch <= 122) {
+        cout << "Lower Case" << endl;
     }
-    else if(ch >= 'A' && ch <='Z'){
-            cout<<"Upper Case"<<endl;
+    // Check uppercase using ASCII values
+    else if (ch >= 'A' && ch <= 'Z') {
+        cout << "Upper Case" << endl;
     }
-    
 
-
+    return 0;
 }

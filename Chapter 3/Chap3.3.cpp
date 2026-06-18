@@ -1,27 +1,28 @@
-// Wap to find Sum of N Number
-
+// Program to find the sum of odd numbers up to N
 #include<iostream>
 using namespace std;
-int main(){
+
+int main() {
     char Op;
     int n;
-    cout<<"Find the Sum of ODD and EVEN number."<<endl;
-    cout<<"Enter option: between A And B:";
-    cin>> Op;
-    cout<<"Enter Number of Sum You Need:";
-    cin>>n;
 
+    // Take input from user
+    cout << "Find the Sum of ODD and EVEN number." << endl;
+    cout << "Enter option: between A And B:";
+    cin >> Op;
+    cout << "Enter Number of Sum You Need:";
+    cin >> n;
 
     int i, sum = 0;
-    if(true){
-        for(i=1; i<=n; i++){
-            if(i%2!=0){
-                sum=sum+i;
-            }
+
+    // This loop adds only odd numbers from 1 to n
+    for (i = 1; i <= n; i++) {
+        if (i % 2 != 0) {
+            sum = sum + i;
         }
     }
 
-    cout<<sum<<endl;
+    // Print the result
+    cout << sum << endl;
     return 0;
-
 }
