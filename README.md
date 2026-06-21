@@ -51,11 +51,14 @@ g++ "FolderName/FileName.cpp" -o "FolderName/FileName" && "./FolderName/FileName
 cd "FolderName" && g++ FileName.cpp -o FileName && ./FileName
 ```
 
-Day 01 Complete Chapter 1: Pseudo code, Algorithm and Flowchart
-Day 02 Complete Chapter 2: Variables, Data Types, Operators and Compile/Run Process
-Day 03 Complete Chapter 3: Conditional Statements and Loops
-Day 04 Complete Chapter 4: Arrays in C++
-Day 05 Complete Chapter 5: Functions
-Day 06 Complete Chapter 6: Binary Number System
-Day 07 Complete Chapter 7: Bitwise Operators
-Day 08 Ongoing Chapter 8: Arrays in C++
+## Learning Progress
+
+- ✅ Chapter 1 — Pseudo code, algorithms, and flowcharts
+- ✅ Chapter 2 — Variables, data types, operators, and compile/run process
+- ✅ Chapter 3 — Conditional statements and loops
+- ✅ Chapter 4 — Arrays in C++
+- ✅ Chapter 5 — Functions
+- ✅ Chapter 6 — Binary number system
+- ✅ Chapter 7 — Bitwise operators
+- ✅ Chapter 8 — Arrays in C++
+- ⏳ Current Focus — Practice, revision, and problem-solving
