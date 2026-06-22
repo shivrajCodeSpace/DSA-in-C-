@@ -61,4 +61,7 @@ cd "FolderName" && g++ FileName.cpp -o FileName && ./FileName
 - ✅ Chapter 6 — Binary number system
 - ✅ Chapter 7 — Bitwise operators
 - ✅ Chapter 8 — Arrays in C++
+- ✅ Chapter 9 — Vectors in C++
+- ✅ Chapter 10 — Subarrays, Kadane's algorithm, and Moore's Voting Algorithm
+- ⏳Chapter 11 — Time complexity and space complexity
 - ⏳ Current Focus — Practice, revision, and problem-solving
