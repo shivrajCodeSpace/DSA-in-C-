@@ -53,10 +53,10 @@ cd "FolderName" && g++ FileName.cpp -o FileName && ./FileName
 
 ## Learning Progress
 
-- ✅ [Chapter 1 Basice of C++](../DSA-in-C-/Chapter%201/Chap_1.md) — Pseudo code, algorithms, and flowcharts
-- ✅ [Chapter 2 C++ Variables , Data Types](../DSA-in-C-/Chapter%202/Chap_2.md)— Variables, data types, operators, and compile/run process
-- ✅ [Chapter 3 Conditional Statement And Loops](../DSA-in-C-/Chapter%203/Chap_3.md) — Conditional statements and loops
-- ✅ [Chapter 4](../DSA-in-C-/) — Arrays in C++
+- ✅ [Chapter 1 Basice of C++](/Chapter%201/Chap_1.md) — Pseudo code, algorithms, and flowcharts
+- ✅ [Chapter 2 C++ Variables , Data Types](/Chapter%202/Chap_2.md)— Variables, data types, operators, and compile/run process
+- ✅ [Chapter 3 Conditional Statement And Loops](/Chapter%203/Chap_3.md) — Conditional statements and loops
+- ✅ [Chapter 4](/) — Arrays in C++
 - ✅ [Chapter 5 Functions ](/Chapter%205/Chap_5.md) — Functions
 - ✅ [Chapter 6 Binary Number System](/Chapter%206/Chap_6.md) — Binary number system
 - ✅ [Chapter 7 Bitwise Opreators](/Chapter%207/Chap_7.md) — Bitwise operators
