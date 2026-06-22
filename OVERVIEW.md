@@ -53,15 +53,15 @@ cd "FolderName" && g++ FileName.cpp -o FileName && ./FileName
 
 ## Learning Progress
 
-- ✅ Chapter 1 — Pseudo code, algorithms, and flowcharts
-- ✅ Chapter 2 — Variables, data types, operators, and compile/run process
-- ✅ Chapter 3 — Conditional statements and loops
-- ✅ Chapter 4 — Arrays in C++
-- ✅ Chapter 5 — Functions
-- ✅ Chapter 6 — Binary number system
-- ✅ Chapter 7 — Bitwise operators
-- ✅ Chapter 8 — Arrays in C++
-- ✅ Chapter 9 — Vectors in C++
-- ✅ Chapter 10 — Subarrays, Kadane's algorithm, and Moore's Voting Algorithm
+- ✅ [Chapter 1 Basice of C++](../DSA-in-C-/Chapter%201/Chap_1.md) — Pseudo code, algorithms, and flowcharts
+- ✅ [Chapter 2 C++ Variables , Data Types](../DSA-in-C-/Chapter%202/Chap_2.md)— Variables, data types, operators, and compile/run process
+- ✅ [Chapter 3 Conditional Statement And Loops](../DSA-in-C-/Chapter%203/Chap_3.md) — Conditional statements and loops
+- ✅ [Chapter 4](../DSA-in-C-/) — Arrays in C++
+- ✅ [Chapter 5 Functions ](/Chapter%205/Chap_5.md) — Functions
+- ✅ [Chapter 6 Binary Number System](/Chapter%206/Chap_6.md) — Binary number system
+- ✅ [Chapter 7 Bitwise Opreators](/Chapter%207/Chap_7.md) — Bitwise operators
+- ✅ [Chapter 8 Array in C++](/Chapter%208/Chap_8.md) — Arrays in C++
+- ✅ [Chapter 9 Vector in C++](/Chapter%209/Chap_9.md) — Vectors in C++
+- ✅ [Chapter 10 Array Part 2 Different Algorithm](/Chapter%2010%20Array%20Part%202/Chap_10.md) — Subarrays, Kadane's algorithm, and Moore's Voting Algorithm
 - ⏳Chapter 11 — Time complexity and space complexity
 - ⏳ Current Focus — Practice, revision, and problem-solving
