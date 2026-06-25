@@ -1,5 +1,37 @@
 # Chapter 3: Conditional Statements and Loops in C++
 
+## Overview
+
+### Definition
+
+Conditional statements and loops are control-flow mechanisms in C++. Conditionals make decisions based on values, while loops repeat code until a condition changes.
+
+### Representation
+
+- Conditional statements are written with `if`, `else if`, `else`, and `switch`.
+- Loops are written with `for`, `while`, and `do-while`.
+- Conditions use comparison and logical operators like `==`, `!=`, `>`, `<`, `&&`, and `||`.
+
+### Application
+
+- Use conditionals to choose between different execution paths.
+- Use loops to repeat tasks, process collections, and run code while a condition is true.
+- Together they control program behavior and make code dynamic.
+
+### Advantages
+
+- Enable decision-making in programs.
+- Reduce repeated code using loops.
+- Help manage complex logic with structured flow.
+- Improve readability when used with clear conditions.
+
+### Characteristics and Types
+
+- Conditionals evaluate expressions and run code if the expression is true.
+- Loops perform repeated execution while a condition remains true.
+- Common conditional types: `if`, `if-else`, `else if`, `switch`, ternary operator.
+- Common loop types: `for`, `while`, `do-while`.
+
 ## Conditional Statements
 
 Conditional statements let your program make decisions based on conditions.
